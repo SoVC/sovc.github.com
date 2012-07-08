@@ -1,0 +1,190 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,700,400italic);
+
+
+* {
+	box-sizing					:	border-box;
+	margin						:	0px;
+	padding						:	0px;
+}
+body {
+	background					:	#fbfaf7;
+	color						:	#232323;
+	font-family					:	'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size					:	0.8em;
+	line-height					:	1.8em;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	background					:	transparent;
+	color						:	#000;
+	font-family					:	Arvo, Monaco, serif;
+	font-weight					:	normal;
+	line-height					:	1.3em;
+	border-bottom					:	solid 1px #ccc;
+	margin-bottom					:	10px;
+}
+
+
+a {
+	background					:	transparent;
+	color						:	#d99230;
+	text-decoration					:	none;
+}
+a:hover {
+	background					:	transparent;
+	color						:	#000;
+	text-decoration					:	none;
+}
+
+
+p {
+	margin-bottom					:	10px;
+}
+p:last-child {
+	margin-bottom					:	0px;
+}
+
+
+ul, ol {
+	margin-bottom					:	10px;
+	padding-left					:	25px;
+	font-family					:	Arvo, Monaco, serif;
+}
+ul li, ol li {
+	padding						:	2px;
+}
+ul:last-child, ol:last-child {
+	margin-bottom					:	0px;
+}
+ul li:nth-child(even), ol li:nth-child(even) {
+	background					:	#eae9e6;
+}
+
+
+#ContainerSidebar {
+	position					:	relative;
+	top						:	0px;
+	left						:	0px;
+	float						:	left;
+	display						:	fixed;
+	width						:	250px;
+	background					:	transparent;
+	color						:	inherit;
+	font-family					:	Arvo, Monaco, serif;
+	margin-top					:	20px;
+	margin-right					:	20px;
+}
+#ContainerSidebar header {
+	position					:	relative;
+	top						:	0px;
+	left						:	0px;
+	float						:	left;
+	display						:	fixed;
+	width						:	250px;
+	padding						:	40px;
+	background					:	#222;
+	color						:	#fff;
+	border-top-right-radius				:	5px;
+	border-bottom-right-radius			:	5px;
+	box-shadow					:	0px 0px 10px #000;
+	margin-bottom					:	20px;
+}
+#ContainerSidebar header h1, #ContainerSidebar header h2 {
+	color						:	#fff;
+	border-bottom					:	none;
+	margin-bottom					:	10px;
+}
+#ContainerSidebar header h2 {
+	margin-bottom					:	40px;
+}
+#ContainerSidebar header ul {
+	list-style					:	none;
+	padding-left					:	0px;
+}
+#ContainerSidebar header ul li {
+	list-style-type					:	none;
+	line-height					:	1em;
+	padding						:	6px 6px 6px 7px;
+	background					:	#fbb450;
+	background					:	-moz-linear-gradient(top, #fbb450 0%, #f89406 100%);
+	background					:	-webkit-gradient(linear, left top, left bottom, color-stop(0%, #f8f8f8), color-stop(100%, #dddddd));
+	background					:	-webkit-linear-gradient(top, #fbb450 0%, #f89406 100%);
+	background					:	-o-linear-gradient(top, #fbb450 0%, #f89406 100%);
+	background					:	-ms-linear-gradient(top, #fbb450 0%, #f89406 100%);
+	background					:	linear-gradient(top, #fbb450 0%, #f89406 100%);
+	margin-bottom					:	12px;
+	border						:	solid 1px #0d0d0d;
+	border-radius					:	4px;
+	-webkit-box-shadow				:	inset 0px 1px 1px 0 rgba(255, 102, 0, 1);
+	box-shadow					:	inset 0px 1px 1px 0 rgba(255, 102, 0, 1);
+}
+#ContainerSidebar header ul li:hover {
+	background					:	#d99230;
+	background					:	-moz-linear-gradient(top, #d99230 0%, #d67204 100%);
+	background					:	-webkit-gradient(linear, left top, left bottom, color-stop(0%, #f8f8f8), color-stop(100%, #dddddd));
+	background					:	-webkit-linear-gradient(top, #d99230 0%,#d67204 100%);
+	background					:	-o-linear-gradient(top, #d99230 0%, #d67204 100%);
+	background					:	-ms-linear-gradient(top, #d99230 0%, #d67204 100%);
+	background					:	linear-gradient(top, #d99230 0%, #d67204 100%);
+}
+#ContainerSidebar header a {
+	display						:	block;
+	color						:	#fff;
+}
+#ContainerSidebar aside {
+	position					:	relative;
+	top						:	0px;
+	left						:	0px;
+	float						:	left;
+	display						:	fixed;
+	width						:	250px;
+	padding						:	10px;
+	background					:	#eae9e6;
+	color						:	inherit;
+	border-top-right-radius				:	5px;
+	border-bottom-right-radius			:	5px;
+	margin-bottom					:	20px;
+	box-shadow					:	0px 0px 10px #b7b6b3;
+}
+#ContainerContent {
+	position					:	relative;
+	top						:	0px;
+	left						:	0px;
+	float						:	left;
+	display						:	inline;
+	width						:	630px;
+	background					:	transparent;
+	color						:	inherit;
+	margin-top					:	20px;
+}
+#ContainerContent nav {
+	position					:	relative;
+	top						:	0px;
+	left						:	0px;
+	float						:	left;
+	display						:	fixed;
+	width						:	630px;
+	padding						:	0px 10px 10px 10px;
+	background					:	transparent;
+	color						:	inherit;
+	font-family					:	Arvo, Monaco, serif;
+	margin-bottom					:	10px;
+}
+#ContainerContent article {
+	position					:	relative;
+	top						:	0px;
+	left						:	0px;
+	float						:	left;
+	display						:	fixed;
+	width						:	630px;
+	padding						:	10px;
+	background					:	transparent;
+	color						:	inherit;
+	margin-bottom					:	10px;
+}
+
+
+.ColourOrange {
+	color						:	#d99230;
+}
